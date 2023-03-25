@@ -33,14 +33,15 @@ module.exports = () => {
 
       // Creates a manifest.json file.
       new WebpackPwaManifest({
-        filename: 'manifest.json',
-        name: 'Just Another Text Editor',
-        short_name: 'JATE',
-        description: 'Text Editor',
-        start_url: './',
-        publicPath: './',
         fingerprints: false,
         inject: true,
+        name: 'Contact Cards',
+        short_name: 'Contact',
+        description: 'Never forget your contacts!',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
+        start_url: './',
+        publicPath: './',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
@@ -49,7 +50,6 @@ module.exports = () => {
           },
         ],
       }),
-      new MiniCssExtractPlugin(),
     ],
 
     module: {
