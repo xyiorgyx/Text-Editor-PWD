@@ -41,7 +41,6 @@ module.exports = () => {
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
-      new MiniCssExtractPlugin(),
     ],
 
     module: {
