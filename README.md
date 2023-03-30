@@ -20,6 +20,8 @@
 
 ![Service Worker Image](./Images/Service%20Worker.png)
 
+![IndexedDB](./Images/indexeddb.png)
+
 ## Live Link
 
 https://george-text-editor.herokuapp.com/
